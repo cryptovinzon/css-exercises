@@ -1,5 +1,14 @@
+/* create container */
+.box {
+  display: flex;
+  justify-content: center;
+  gap: 52px
+}
+
+
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center; /* instead of .text center align, add here */
 }
 
 img {
@@ -10,7 +19,13 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
 }
+
+.item {
+  width: 200px; /* no need for other formatting (centering done in body) */
+}
+
 
 /* do not edit this footer */
 .footer {
